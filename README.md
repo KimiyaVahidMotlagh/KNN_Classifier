@@ -1,5 +1,5 @@
 # Handwritten-KNN
-KNN algorithm simple python code :)
+Simple KNN algoritm Python code :)
 
 
 ## Table of Contents
@@ -9,8 +9,9 @@ KNN algorithm simple python code :)
 - [KNN excution and accuracy](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#knn) <br />
 
 ## KNN functions
-distanse calculator <br />
-KNN classifier <br />
+- distanse calculator <br />
+KNN is an algoritm which determins a data's label, based on the k nearest training examples in the dataset and determin the data is more likely to be in a class. the most simple function to 
+- KNN classifier <br />
 Accuracy calculator <br />
 KNN plot function <br />
 
