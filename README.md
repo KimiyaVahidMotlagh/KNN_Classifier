@@ -18,8 +18,10 @@ Because KNN is a supervised algorithm, we have the test labels. The number of ri
 The plotter will show the train and test data with their class labels in a 2D coordinate diagram. You can set the inputs for both supervised and predicted labels.
 
 ## Loading data
-- Read csv file <br />
+- Read CSV file <br />
+With Pandas, you can read a CSV file and load the points as a dataframe. The data we are dealing with is a simple 400 points consisting of their X, Y, and labels.
 - split train and test data <br />
+For training a KNN model we need both train and test data. We have some data points to predict test dataset labels. 
 
 ## Hyperpatameter tuning(K)
 <br />
