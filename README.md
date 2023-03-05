@@ -25,5 +25,7 @@ Because KNN is a supervised algorithm, we actually have the test labels. The num
 <br />
 
 ## KNN
-excution <br />
+execution <br />
+With K=13, the only thing left is calling the function. 
 accuracy <br />
+accuracy calculator function checks the percentage of correct label predictions. This function has been used in hyperparameter tuning for our elbow data.
