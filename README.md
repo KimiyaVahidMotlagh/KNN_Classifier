@@ -23,8 +23,8 @@ With Pandas, you can read a CSV file and load the points as a dataframe. The dat
 - split train and test data <br />
 For training a KNN model we need both train and test data. We have some data points to predict test dataset labels. 
 
-## Hyperpatameter tuning(K)
-<br />
+## Hyperpatameter tuning(K)<br />
+Setting KNN's hyperparameter is commonly achieved by the elbow chart. for each K from 3 to 20, you can check how different the loss will be and then you can pick the best number for tuning in your scenario. For our datapoints K=13 has the least loss. 
 
 ## KNN
 execution <br />
