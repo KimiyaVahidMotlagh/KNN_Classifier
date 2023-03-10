@@ -26,8 +26,5 @@ For training a KNN model we need both train and test data. We have some data poi
 ## Hyperpatameter tuning(K)<br />
 Setting KNN's hyperparameter is commonly achieved by the elbow chart. for each K from 3 to 20, you can check how different the loss will be and then you can pick the best number for tuning in your scenario. For our datapoints K=13 has the least loss. 
 
-## KNN
-execution <br />
-With K=13, the only thing left is calling the function. 
-accuracy <br />
-accuracy calculator function checks the percentage of correct label predictions. This function has been used in hyperparameter tuning for our elbow data.
+## KNN train and evaluation
+For training the dataset, we have a function to combine previous functions. We set K as input to set the number of naibours and train our model. This function will predict a label for each test data by the end of training. In order to test how much the model predicted correctly, we call the accuracy calculator. Our handwritten KNN predicts over 88 percent of labels correctly.
