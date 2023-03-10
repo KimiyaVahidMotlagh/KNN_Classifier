@@ -1,5 +1,4 @@
 # Handwritten-KNN
-Simple KNN algoritm Python code :)<br />
 KNN is a supervised algoritm which determins a data's label, based on the k nearest training examples in the dataset. This algorithm determin the data is more likely to be in a class by the training data most similar to our test data.
 
 ## Table of Contents
