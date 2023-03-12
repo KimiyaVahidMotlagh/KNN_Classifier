@@ -1,21 +1,21 @@
 # Handwritten-KNN
-KNN is a supervised algoritm which determins a data's label, based on the k nearest training examples in the dataset. This algorithm determin the data is more likely to be in a class by the training data most similar to our test data. In this project, we programmed a KNN algorithm manually. Main  
+KNN is a supervised algoritm which determins a data's label, based on the k nearest training examples in the dataset. This algorithm determin the data is more likely to be in a class by the training data most similar to our test data. In this project, we programmed a KNN algorithm manually. The main focus of this project was to show how KNN classifies data.
 
 ## Table of Contents
-- [Loading data](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#loading-data) <br />
+- [Dataset Discription & Functions](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#loading-data) <br />
 - [Main Functions](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#knn-functions)  <br />
 - [Hyperparameter Tuning(K)](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#hyperpatameter-tuningk) <br />
 - [Train & Evaluation](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#knn) <br />
 
-## Loading data
-- Read CSV file <br />
-With Pandas, you can read a CSV file and load the points as a dataframe. The data we are dealing with is a simple 400 points consisting of their X, Y, and labels.
-- split train and test data <br />
-For training a KNN model we need both train and test data. We have some data points to predict test dataset labels. 
+## Dataset Discription & Functions
+- dataset
+The data we are dealing with has 400 points consisting of their x, y, and labels.
+- Load & split train and test data <br />
+With Pandas, you can read a CSV file and load the points as a dataframe.  For training a KNN model we need both train and test data. We have some data points to predict test dataset labels. 
 
 ## Main Functions
 - **distance_calculator** <br />
-Often Mechin learning data is defined by vectors. KNN algorithm searches for similar training data. The most straightforward function to find the neighbors is the Euclidean distance function.<br />
+Mechin learning data often defined by vectors. KNN algorithm searches for similar training data. The most straightforward function to find the neighbors is the Euclidean distance function.<br />
 - **K_nearest_neighbour_classifier** <br />
 By knowing the distance between two points, K nearest neighbors are the training points with the least distance. This function would find the most labels in the neighbors and classify the test data point as the same label.
 - **accuracy_calculator** <br />
