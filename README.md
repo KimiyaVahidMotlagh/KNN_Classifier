@@ -8,8 +8,8 @@ KNN is a supervised algoritm which determins a data's label, based on the k near
 - [Train & Evaluation](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#knn) <br />
 
 ## Dataset Discription & Functions
-- dataset
-The data we are dealing with has 400 points consisting of their x, y, and labels.
+- dataset <br/>
+The data we are dealing with has 400 points consisting of their x, y, and labels. 
 - Load & split train and test data <br />
 With Pandas, you can read a CSV file and load the points as a dataframe.  For training a KNN model we need both train and test data. We have some data points to predict test dataset labels. 
 
