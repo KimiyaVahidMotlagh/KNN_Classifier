@@ -9,17 +9,17 @@ KNN is a supervised algoritm which determins a data's label, based on the k near
 
 ## Dataset Discription & Functions
 - dataset <br/>
-The data we are dealing with has 400 points consisting of their x, y, and labels. 
+The data we are dealing with has 400 points consisting of their x, y, and labels. Our data is shown in the digram bellow:
 - Load & split train and test data <br />
 With Pandas, you can read a CSV file and load the points as a dataframe.  For training a KNN model we need both train and test data. We have some data points to predict test dataset labels. 
 
 ## Main Functions
 - **distance_calculator** <br />
-Mechin learning data often defined by vectors. KNN algorithm searches for similar training data. The most straightforward function to find the neighbors is the Euclidean distance function.<br />
+Mechin learning data often are vectors. KNN algorithm searches for similar training data. The most straightforward function to find the neighbors is the Euclidean distance function.<br />
 - **K_nearest_neighbour_classifier** <br />
-By knowing the distance between two points, K nearest neighbors are the training points with the least distance. This function would find the most labels in the neighbors and classify the test data point as the same label.
+By knowing the distance between two points, K nearest neighbors are the training points with the least distance. This function would find the frequent labels in the neighbors and classify the test data point as the same label.
 - **accuracy_calculator** <br />
-Because KNN is a supervised algorithm, we have the test labels. The number of rightly classified labels is divided by the total number of data.
+Because KNN is a supervised algorithm, we have the test labels. The number of corectly classified labels is divided by the total number of data.
 - **data_plot** <br />
 The plotter will show the train and test data with their class labels in a 2D coordinate diagram. You can set the inputs for both supervised and predicted labels.
 
