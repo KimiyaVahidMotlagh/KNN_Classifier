@@ -35,7 +35,7 @@ The plotter will show the train and test data with their class labels in a 2D co
 Setting KNN's hyperparameter is commonly achieved by the elbow chart. For each K from 3 to 20, you can check how different the loss will be and then you can pick the best number for tuning in your scenario. <br/>
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/Pictures/elbowDarkmode.jpg">
  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/Pictures/elbow.jpg">
 </picture>
 
