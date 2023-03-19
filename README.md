@@ -9,7 +9,7 @@ KNN is a supervised algorithm that determines a data's label, based on the k nea
 
 ## Dataset Discription & Functions
 - dataset <br/>
-The data we are dealing with has 400 points consisting of their x, y, and labels. Our data is shown in the diagram below: <br/>
+The data we are dealing with has 400 points consisting of their x, y, and labels. Our data is shown in the diagram below: <br/><br/>
 <tab><tab>![Data](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/Data.jpg)<br><br>
 Every class in the dataset is shown in a different color. Each point has a corresponding label.
 - Load & split train and test data <br />
