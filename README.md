@@ -19,7 +19,7 @@ The data we are dealing with has 400 points consisting of their x, y, and labels
 <tab> Every class in the dataset is shown in a different color. Each point has a corresponding label. <br/>
 
 - Load & split train and test data <br />
-With Pandas, you can read a CSV file and load the points as a dataframe.  For training a KNN model we need both train and test data. We have some data points to predict test dataset labels and then evaluate our code. To achieve that we used Scikit Learn's split data function.
+With Pandas, you can read a CSV file and load the dataset as a dataframe. For training a KNN model we need both train and test data. We have some data to predict test dataset labels and then evaluate our code. To achieve that we used Scikit Learn's split data function.
 
 ## Main Functions
 - **distance_calculator** <br />
@@ -31,7 +31,7 @@ Because KNN is a supervised algorithm, we have the test labels. The number of co
 - **data_plot** <br />
 The plotter will show the train and test data with their class labels in a 2D coordinate diagram. You can set the inputs for both supervised and predicted labels.
 
-## Hyperpatameter tuning(K)<br />
+## Hyperpatameter Tuning(K)<br />
 Setting KNN's hyperparameter is commonly achieved by the elbow chart. For each K from 3 to 20, you can check how different the loss will be and then you can pick the best number for tuning in your scenario. <br/>
 
 <picture>
@@ -39,7 +39,7 @@ Setting KNN's hyperparameter is commonly achieved by the elbow chart. For each K
  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/Pictures/elbow.jpg">
 </picture>
 
-For our data, K=13 has the least loss. 
+For our dataset, K=13 has the least loss. 
 
 ## Train and Evaluation
-For training the dataset, we have a function to combine previous functions. We set K as input to set the number of naibours and train our model. This function will predict a label for each test data by the end of training. To test how much the model predicted correctly, we call the accuracy calculator. Our handwritten KNN predicts over 88 percent of labels correctly.
+For training the dataset, we have a function to combine previously mentioned functions. We set K as input to set the number of naibours and train our model. This function will predict a label for each test datapoint by the end of training. To test how much the model predicted correctly, we call the accuracy calculator. Our KNN predicts over 88 percent of labels correctly.
