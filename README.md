@@ -11,7 +11,7 @@ KNN is a supervised algorithm that determines a data's label, based on the k nea
 - dataset <br/>
 The data we are dealing with has 400 points consisting of their x, y, and labels. Our data is shown in the diagram below:
 <br/>
-![data]() <br/>
+<tab> <tab> ![data](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/Data.jpg) <br/>
 Every class in the dataset is shown in a different color. Each point has a corresponding label.
 - Load & split train and test data <br />
 With Pandas, you can read a CSV file and load the points as a dataframe.  For training a KNN model we need both train and test data. We have some data points to predict test dataset labels and then evaluate our code. To achieve that we used Scikit Learn's split data function.
