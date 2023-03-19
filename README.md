@@ -12,7 +12,7 @@ KNN is a supervised algorithm that determines a data's label, based on the k nea
 The data we are dealing with has 400 points consisting of their x, y, and labels. Our data is shown in the diagram below: <br/><br/>
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/Pictures/dataDarkmode.jpg">
- <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+ <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/Pictures/Data.jpg">
 </picture> <br/>
 <tab> Every class in the dataset is shown in a different color. Each point has a corresponding label. <br/>
 
