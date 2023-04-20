@@ -20,13 +20,13 @@ The data we are dealing with has 400 points consisting of their x, y, and labels
 With Pandas, you can read a CSV file and load the dataset as a dataframe. For training a KNN model we need both train and test data. We have some data to predict test dataset labels and then evaluate our code. To achieve that we used Scikit Learn's split data function.
 
 ## Main Functions
-- **distance_calculator** <br />
+- **distance_calculator()** <br />
 Machine learning data often are vectors. KNN algorithm searches for similar training data. The most straightforward function to find the neighbors is the Euclidean distance function.<br />
-- **K_nearest_neighbour_classifier** <br />
+- **K_nearest_neighbour_classifier()** <br />
 By knowing the distance between two points, K nearest neighbors are the training points with the least distance. This function would find the frequent labels in the neighbors and classify the test data point as the same label.
-- **accuracy_calculator** <br />
+- **accuracy_calculator()** <br />
 Because KNN is a supervised algorithm, we have the test labels. The number of correctly classified labels is divided by the total number of data.
-- **data_plot** <br />
+- **data_plot()** <br />
 The plotter will show the train and test data with their class labels in a 2D coordinate diagram. You can set the inputs for both supervised and predicted labels.
 
 ## Hyperpatameter Tuning(K)<br />
