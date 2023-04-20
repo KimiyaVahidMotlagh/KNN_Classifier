@@ -5,7 +5,7 @@ KNN is a supervised algorithm that determines a data's label, based on the k nea
 - [Dataset Description & Functions](https://github.com/KimiyaVahidMotlagh/KNN_Classifier#dataset-discription--functions) <br />
 - [Main Functions](https://github.com/KimiyaVahidMotlagh/KNN_Classifier/blob/main/README.md#main-functions)  <br />
 - [Hyperparameter Tuning(K)](https://github.com/KimiyaVahidMotlagh/KNN_Classifier#hyperpatameter-tuningk) <br />
-- [Train & Evaluation](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#train-and-evaluation) <br />
+- [Train & Evaluation](https://github.com/KimiyaVahidMotlagh/KNN_Classifier/blob/main/README.md#train-and-evaluation) <br />
 
 ## Dataset Discription & Functions
 - dataset <br/>
