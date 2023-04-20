@@ -21,7 +21,7 @@ With Pandas, you can read a CSV file and load the dataset as a dataframe. For tr
 
 ## Main Functions
 - **distance_calculator()** <br />
-Machine learning data often are vectors. KNN algorithm searches for similar training data. The most straightforward function to find the neighbors is the Euclidean distance function.<br />
+Machine learning data consists of vectors. KNN algorithm searches for similar training data. The most straightforward function to find the neighbors is the Euclidean distance function.<br />
 - **K_nearest_neighbour_classifier()** <br />
 By knowing the distance between two points, K nearest neighbors are the training points with the least distance. This function would find the frequent labels in the neighbors and classify the test data point as the same label.
 - **accuracy_calculator()** <br />
