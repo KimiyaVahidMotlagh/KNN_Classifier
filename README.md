@@ -1,4 +1,4 @@
-# Handwritten-KNN
+# KNN_Classifier
 KNN is a supervised algorithm that determines a data's label, based on the k nearest training examples in the dataset. This algorithm determines the data is more likely to be in a class by the training data most similar to our test data. In this project, we programmed the KNN algorithm manually. The main focus of this project was to show how KNN classifies data.
 
 ## Table of Contents
