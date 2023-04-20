@@ -2,7 +2,7 @@
 KNN is a supervised algorithm that determines a data's label, based on the k nearest training examples in the dataset. This algorithm determines the data is more likely to be in a class by the training data most similar to our test data. In this project, we programmed the KNN algorithm manually. The main focus of this project was to show how KNN classifies data.
 
 ## Table of Contents
-- [Dataset Description & Functions](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN#dataset-discription--functions) <br />
+- [Dataset Description & Functions](https://github.com/KimiyaVahidMotlagh/KNN_Classifier#dataset-discription--functions) <br />
 - [Main Functions](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#main-functions)  <br />
 - [Hyperparameter Tuning(K)](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#hyperpatameter-tuningk) <br />
 - [Train & Evaluation](https://github.com/KimiyaVahidMotlagh/Handwritten-KNN/blob/main/README.md#train-and-evaluation) <br />
